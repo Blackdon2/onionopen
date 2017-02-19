@@ -1,0 +1,8 @@
+.content {
+    height: 100%;
+    background: url("https://static1.squarespace.com/static/54b97e1fe4b0c2baff8d7a01/t/54b97f64e4b09cb81d847983/1421442916594/body_background.jpg") no-repeat fixed top center;
+}
+
+.overlay-text {
+    color: rgba(255,255,255,0.80);
+}
