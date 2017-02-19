@@ -1,0 +1,138 @@
+@charset "utf-8";
+ #body-section {
+	font-family: fantasy;
+	font-size: 24px;
+	background-attachment: fixed;
+	margin: auto;
+	border: 8px solid rgb(23, 64, 56);
+	border-top: 20px solid rgb(23, 64, 56);
+	background-image: url("http://i.imgur.com/V8qBCfn.jpg");
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-color: rgb(23, 64, 56);
+	background-size: 100%;
+	padding: 15px;
+}
+
+#intro {
+	border: 5px solid black;
+	background-color: rgb(23, 64, 56);
+	padding: 15px;
+	width: 810px;
+}
+
+#intro1 p {
+	display: inline-block;
+	margin: 0 25px;
+}
+
+#intro2 p {
+	display: inline-block;
+	margin: 0 25px;
+}
+
+.february {
+	font: italic 20px fantasy;
+}
+
+.may {
+	font: italic 20px fantasy;
+}
+
+.june {
+	font: italic 20px fantasy;
+}
+
+.july {
+	font: italic 30px fantasy;
+	color: red;
+}
+
+#onion-pic {
+	padding: 15px;
+	width: 120px;
+
+	height: 90px;
+	float: left;
+
+	margin-right: 10px;
+
+	margin-bottom: 22px;
+}
+
+#station-pic {
+	padding: 15px;
+	width: 130px;
+	float: right;
+	margin-right: 30px;
+	margin-bottom: 12px;
+}
+
+#course-pic {
+	width: 250px;
+
+	margin-right: 10px;
+
+	margin-bottom: 12px;
+
+}
+
+#events {
+	background-color: white;
+	padding: 15px;
+	border: 5px solid black;
+	width: 350px;
+	margin-left: 50px;
+}
+
+#course {
+
+	width: 740px;
+	background-color: rgb(23, 64, 56);
+	border: 5px solid black;
+
+	padding: 15px;
+	margin-left: 50px;
+}
+
+#course1 {
+
+	width: 650px;
+	height: 400px;
+	background-image: url("https://www.allsquaregolf.com//system/pictures/pictures/000/021/831/sq_bg/widder_station_golf_and_country_club_cover_picture.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border: 5px solid black;
+
+	padding: 15px;
+	margin-left: 30px;
+}
+
+#course2 {
+
+	margin-left: 10px;
+}
+
+#members {
+	width: 350px;
+	height: 200px;
+	background-image: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTH_-CfBH5qZghgoimPPu7XTLxQ0JA-3kHE_BOkLazoFGs4zvOq");
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: 100%;
+	background-color: white;
+
+	padding: 10px;
+	border: 5px solid black;
+	margin-left: 50px;
+
+	color: red;
+}
+
+.sub-event {
+	width: 500px;
+	background-color: rgb(23, 64, 56);
+	padding: 15px;
+	border: 5px solid black;
+	margin-left: 50px;
+}
