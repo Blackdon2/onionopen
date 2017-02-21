@@ -68,7 +68,14 @@ nav {
 	margin-right: 30px;
 	margin-bottom: 12px;
 }
+.openplayers-pic {
+	width: 450px;
+   
+	margin-right: 10px;
+    border: 5px solid black;
+	margin-bottom: 12px;
 
+}
 #course-pic {
 	width: 250px;
 
