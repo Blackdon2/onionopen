@@ -114,14 +114,25 @@ ul.topnav li.right {float: right;}
 	margin-left: 50px;
 }
 
-@media screen and (max-width: 700px){
+div.fixed {display: none;
+    position: fixed;
+	bottom: 3px;
+	background-color:black;
+    right: 5px;
+	padding : 3px;
+	border : 5px solid green;
+}
+
+@media screen and (max-width: 850px){
     ul.topnav {position:relative;}
     ul.topnav li.right, 
     ul.topnav li {float: none;}
 	#main-section{background-image:none;position:relative;top:0px; width:100%; padding:0px;}
 	.sub-event-pic  {float: none;width:100%;padding:10px;}
-	.sub-event {position:relative;width:100%; margin:0px;}
-	#events{float:right;}
-	
+	.sub-event {position:relative;width:100%; margin:auto;}
+	#events{margin:auto;}
+	.openplayers-pic {width: 100%; padding:10px;}	
+	div.fixed {display: block;}
+
 }
 
