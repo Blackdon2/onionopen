@@ -56,23 +56,6 @@ ul.topnav li.right {float: right;}
 		
 }
 
-.february {
-	font: italic 20px fantasy;
-}
-
-.may {
-	font: italic 20px fantasy;
-}
-
-.june {
-	font: italic 20px fantasy;
-}
-
-.july {
-	font: italic 30px fantasy;
-	color: red;
-}
-
 #onion-pic {	width: 80px; 
 	height: 60px; 
 	margin-right : 15px;
@@ -86,6 +69,12 @@ ul.topnav li.right {float: right;}
 	margin-bottom: 12px;
 	border: 5px solid black;
 }
+
+#first-pic {	width: 40%; 
+	 border: 5px solid black;
+	}
+
+
 .openplayers-pic {
 	width: 30%;
    
@@ -96,7 +85,7 @@ ul.topnav li.right {float: right;}
 	
 	padding: 15px;
 	border: 5px solid black;
-	width: 350px;
+	width: 600px;
 	margin-left: 50px;
 }
 
@@ -127,6 +116,7 @@ div.fixed {display: none;
     ul.topnav {position:relative;}
     ul.topnav li.right, 
     ul.topnav li {float: none;}
+	#first-pic {	width: 100%;} 
 	#main-section{background-image:none;position:relative;top:0px; width:100%; padding:0px;}
 	.sub-event-pic  {float: none;width:100%;padding:10px;}
 	.sub-event {position:relative;width:100%; margin:auto;}
