@@ -87,11 +87,9 @@ ul.topnav li.right {float: right;}
 	border: 5px solid black;
 }
 .openplayers-pic {
-	width: 450px;
-   	margin-right: 10px;
+	width: 30%;
+   
     border: 5px solid black;
-	margin-bottom: 12px;
-
 }
 
 #events {background-color: rgb(23, 64, 56);
@@ -106,7 +104,6 @@ ul.topnav li.right {float: right;}
 			    float: right;
 			     border: 5px solid black;
 			    }
-
 
 .sub-event {
 	width: 600px;
