@@ -1,20 +1,24 @@
 @charset "utf-8";
-body {marging-right:20px;}
+
 ul.topnav { position:fixed;
           border: 5px solid black;
           list-style-type: none;
 	      margin: 0;
-          padding: 10;
+        
           overflow: hidden;
           background-color: rgb(23, 64, 56);
 		  width:100%;
+		 
 }
 
 ul.topnav li { float: left;
-			}
-ul.topnav li  p { font: italic 40px fantasy;color:black;text-align:center;margin:0;}
+}
+ul.topnav li  p { font: italic 40px fantasy;
+              color:black;
+			  text-align:center;
+			  margin:0;
+}
  ul.topnav li a {
-    
     display: block;
     color: rgb(3, 143, 83);
     text-align: center;
@@ -98,15 +102,10 @@ ul.topnav li.right {float: right;}
 	margin-left: 50px;
 }
 
-#course-pic {width: 350px;	
-			float: right;
-			border: 5px solid black;
-			}
-
-#members-pic {width: 350px;	
-			float: right;
-			border: 5px solid black;
-			}
+.sub-event-pic {width: 60%;	
+			    float: right;
+			     border: 5px solid black;
+			    }
 
 
 .sub-event {
@@ -118,9 +117,14 @@ ul.topnav li.right {float: right;}
 	margin-left: 50px;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 700px){
     ul.topnav {position:relative;}
     ul.topnav li.right, 
     ul.topnav li {float: none;}
+	#main-section{background-image:none;position:relative;top:0px; width:100%; padding:0px;}
+	.sub-event-pic  {float: none;width:100%;padding:10px;}
+	.sub-event {position:relative;width:100%; margin:0px;}
+	#events{float:right;}
+	
 }
 
