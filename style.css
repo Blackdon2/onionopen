@@ -4,7 +4,6 @@ ul.topnav { position:fixed;
           border: 5px solid black;
           list-style-type: none;
 	      margin: 0;
-        
           overflow: hidden;
           background-color: rgb(23, 64, 56);
 		  width:100%;
@@ -41,11 +40,9 @@ ul.topnav li.right {float: right;}
                 top:73px;
 	            font-family: fantasy;
 	            font-size: 24px;
-				color:black;
+				color:rgb(3, 143, 83);
 	            background-attachment: fixed;
-				margin: auto;
-				border: 8px solid rgb(23, 64, 56);
-				border-top: 20px solid rgb(23, 64, 56);
+				margin: auto;				
 				background-image: url("http://i.imgur.com/V8qBCfn.jpg");
 				background-repeat: no-repeat;
 				background-color: rgb(23, 64, 56);
@@ -82,13 +79,21 @@ ul.topnav li.right {float: right;}
 }
 
 #events {background-color: rgb(23, 64, 56);
-	
+	color:rgb(3, 143, 83);
 	padding: 15px;
 	border: 5px solid black;
 	width: 600px;
 	margin-left: 50px;
-}
-
+	}
+	
+ul.main-vlist li a {
+    list-style-type: none;
+    color: rgb(3, 143, 83);
+    text-align: center;
+    padding: 24px 26px;
+    text-decoration: none;
+	}
+	
 .sub-event-pic {width: 60%;	
 			    float: right;
 			     border: 5px solid black;
@@ -109,7 +114,8 @@ div.fixed {display: none;
 	background-color:black;
     right: 5px;
 	padding : 3px;
-	border : 5px solid green;
+	border : 5px solid gray;
+	 
 }
 
 @media screen and (max-width: 850px){
